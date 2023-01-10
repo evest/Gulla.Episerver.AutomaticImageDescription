@@ -14,7 +14,7 @@ Per default, the job will only send 20 requests to the Computer Vision API, so i
 }
 ```
 
-Of in `startup.cs` if you prefer that.
+Or in `startup.cs` if you prefer that.
 
 ```CSHARP
 .AddAutomaticImageDescription(x =>
